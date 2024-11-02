@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>TechnoShop</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="Images/favicon_io/android-chrome-192x192.png">
+</head>
+<body>
+    <div id="container">
+	
+		<div id="nav">
+			<!-- Use the header area for the website name or logo -->
+			<header id="ffc-logo">
+				<a href="Index.html"><img src="Images/Logo technoshop.png" alt="Logo TechnoShop" height="30" ></a>
+			</header>
+			
+			<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="computers.html">Computers</a>
+					<a href="laptop.html">Laptops</a>
+					<a href="Tablet.html">Tablets</a>
+					<a href="about.html">About Us</a>
+					<a href="Contact Us.html">Contact Us</a>
+				</div>
+			</nav>
+
+			<!-- Tablet, Desktop Nav -->
+			<nav class="tablet-desktop">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="computers.html">Shop</a>
+						<ul class="dropdown-menu">
+							<li><a href="computers.html">Computers</a></li>
+							<li><a href="laptop.html">Laptops</a></li>
+							<li><a href="Tablet.html">Tablets</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="Contact Us.html">Contact Us</a></li>
+					<li><a href="portfolioHayden.html">Team</a>
+						<ul class="dropdown-menu">
+							<li><a href="portfolioHayden.html">Hayden</a></li>
+							<li><a href="portfolioSolange.html">Solange</a></li>
+							<li><a href="portfolioOscar.html">Oscar</a></li>
+						</ul>
+					</li>
+			</nav>
+		</div>
+
+        <!-- Main Content Area -->
+        <main>
+            <h1>Welcome to TechnoShop!</h1>
+            <p>Your one-stop shop for all the latest technology gadgets and gear. Explore our extensive range of high-quality tablets designed to fit every need and budget.</p>
+
+            <section id="features">
+                <h2>Featured Tablets</h2>
+                <div class="products">
+                    <div class="product">
+                        <img src="Images/produit1.jpeg" alt="Tablet 1" width="250" height="250">
+                        <h3>Pro Tablet Model 1</h3>
+                        <p>Powerful performance in your hands.</p>
+                        <a href="shop.html#tablet1">Learn More</a>
+                    </div>
+                    <div class="product">
+                        <img src="Images/produit2.jpeg" alt="Tablet 2" width="250" height="250">
+                        <h3>Pro Tablet Model 2</h3>
+                        <p>Next-generation technology for professionals.</p>
+                        <a href="shop.html#tablet2">Learn More</a>
+                    </div>
+                    <div class="product">
+                        <img src="Images/produit3.jpg" alt="Tablet 3" width="250" height="250">
+                        <h3>Pro Tablet Model 3</h3>
+                        <p>Stunning visuals and superb performance.</p>
+                        <a href="shop.html#tablet3">Learn More</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p><a href="mailto:forwardtechnoshop@mail.net">forwardtechnoshop@mail.net</a></p>
+		<img src="Images/twitter.png" width="20" height="20">
+		<img src="Images/facebook.webp" width="25" height="25">
+        <p>Created by:<a href="portfolioSolange.html">Solange</a>&ndash;<a href="portfolioHayden.html">Hayden</a>&ndash; <a href="portfolioOscar.html">Oscar</a></p>
+
+        </footer>
+    </div>
+
+    <script src="Script/script.js"></script>
+    
+</body>
+</html>

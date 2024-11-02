@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TechnoShop</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+		<link rel="icon" sizes="192x192" href="Images/favicon_io/android-chrome-192x192.png">
+	</head>
+	<body>
+
+		<div id="container">
+
+			<div id="nav">
+				<!-- Use the header area for the website name or logo -->
+				<header id="ffc-logo">
+					<a href="Index.html"><img src="Images/Logo technoshop.png" alt="Logo TechnoShop" height="30" ></a>
+				</header>
+				
+				<!-- Mobile Nav -->
+				<nav class="mobile-nav">
+					<a class="menu-icon" onclick="hamburger()">
+						<div>&#9776;</div>
+					</a>
+					<div id="menu-links">
+						<a href="index.html">Home</a>
+						<a href="computers.html">Computers</a>
+						<a href="laptop.html">Laptops</a>
+						<a href="Tablet.html">Tablets</a>
+						<a href="about.html">About Us</a>
+						<a href="Contact Us.html">Contact Us</a>
+					</div>
+				</nav>
+
+				<!-- Tablet, Desktop Nav -->
+				<nav class="tablet-desktop">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="computers.html">Shop</a>
+							<ul class="dropdown-menu">
+								<li><a href="computers.html">Computers</a></li>
+								<li><a href="laptop.html">Laptops</a></li>
+								<li><a href="Tablet.html">Tablets</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="Contact Us.html">Contact Us</a></li>
+						<li><a href="portfolioHayden.html">Team</a>
+							<ul class="dropdown-menu">
+								<li><a href="portfolioHayden.html">Hayden</a></li>
+								<li><a href="portfolioSolange.html">Solange</a></li>
+								<li><a href="portfolioOscar.html">Oscar</a></li>
+							</ul>
+						</li>
+				</nav>
+			</div>
+			
+			<main>
+				<div id="computers">
+					<h1>Desktops</h1>
+					<h2>From the minimal setup to the latest gaming rig, we've got you covered.</h2>      
+				</div>
+				
+				<div id="computer-cards">
+					<div>
+						<img src="Images/hpdesktop.jpg">
+						<p>$129.99</p>
+					</div>
+					<div>
+						<img src="Images/macdesktop.webp">
+						<p>$799.99</p>
+					</div>
+					<div>
+						<img src="Images/gamingdesktop.jpg">
+						<p>$1199.99</p>
+					</div>
+				</div>
+			</main>
+			
+			<footer>
+				<p>&copy; Copyright 2021. All Right Reserved.</p>
+				<p><a href="mailto:technoshop@mail.net">technoshop@mail.net</a></p>
+				<p>Created by:<a href="portfolioSolange.html">Solange</a>&ndash;<a href="portfolioHayden.html">Hayden</a>&ndash; <a href="portfolioOscar.html">Oscar</a></p>
+			</footer>
+		</div>
+		<script src="Script/script.js"></script>
+	</body>
+</html>

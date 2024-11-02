@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TechnoShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="Images/favicon_io/android-chrome-192x192.png">
+</head>
+<body>
+
+    <div id="container">
+
+		<div id="nav">
+			<!-- Use the header area for the website name or logo -->
+			<header id="ffc-logo">
+				<a href="Index.html"><img src="Images/Logo technoshop.png" alt="Logo TechnoShop" height="30" ></a>
+			</header>
+			
+			<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="computers.html">Computers</a>
+					<a href="laptop.html">Laptops</a>
+					<a href="Tablet.html">Tablets</a>
+					<a href="about.html">About Us</a>
+					<a href="Contact Us.html">Contact Us</a>
+				</div>
+			</nav>
+
+			<!-- Tablet, Desktop Nav -->
+			<nav class="tablet-desktop">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="computers.html">Shop</a>
+						<ul class="dropdown-menu">
+							<li><a href="computers.html">Computers</a></li>
+							<li><a href="laptop.html">Laptops</a></li>
+							<li><a href="Tablet.html">Tablets</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="Contact Us.html">Contact Us</a></li>
+					<li><a href="portfolioHayden.html">Team</a>
+						<ul class="dropdown-menu">
+							<li><a href="portfolioHayden.html">Hayden</a></li>
+							<li><a href="portfolioSolange.html">Solange</a></li>
+							<li><a href="portfolioOscar.html">Oscar</a></li>
+						</ul>
+					</li>
+			</nav>
+		</div>
+		
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+            <section id="about us">
+            
+            <h3>About TechnoShop</h3>
+            <p>Welcome to TechnoShop, the store that helps you succeed in your studies by offering the best and highest quality of our modern technology, software and accessories. Our mission is to provide the best resources for modern students and help them excel in their studies by offering unbeatable prices! TechnoShop was born of a vision between 3 university students who, after much reflection on the tools needed to study in good condition, decided to start an online store in 2024 offering affordable access to modern tools.</p>      
+            
+            </section>
+
+            <!-- This section for the video of about us-->
+            <section id="video">
+                <video autoplay loop muted>
+                <source src="Media/Lumixar-man-working-in-studio-283497-filmsupply.mov" type="video/mp4">
+                <p>Your browser does not support the video element.</p>
+                </video>
+            </section>
+        </main>
+		
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>&copy; Copyright 2021. All Right Reserved.</p>
+            <p><a href="mailto:forwardtechnoshop@mail.net">forwardtechnoshop@mail.net</a></p>
+            <p>Created by:<a href="portfolioSolange.html">Solange</a>&ndash;<a href="portfolioHayden.html">Hayden</a>&ndash; <a href="portfolioOscar.html">Oscar</a></p>
+
+        </footer>
+   
+    </div>
+
+    <script src="Script/script.js"></script>
+
+</body>
+</html>

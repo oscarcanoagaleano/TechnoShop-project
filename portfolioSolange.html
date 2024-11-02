@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TechnoShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="Images/favicon_io/android-chrome-192x192.png">
+</head>
+<body>
+
+    <div id="container">
+
+		<div id="nav">
+			<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="shop.html">Shop</a>
+					<a href="about.html">About us</a>
+					<a href="Contact Us.html">Contact Us</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
+
+			
+			<!-- Use the header area for the website name or logo -->
+			<header id="ffc-logo">
+				<a href="index.html"><img src="Images/Logo technoshop.png" alt="Logo TechnoShop" height="30" ></a>
+			</header>
+
+			<!-- Tablet, Desktop Nav -->
+			<nav class="tablet-desktop">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="shop.html">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="computers.html">Computers</a></li>
+                            <li><a href="laptop.html">Laptop</a></li>
+                            <li><a href="Tablet.html">Tablet</a></li>
+                        </ul>
+                    </li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="Contact Us.html">Contact Us</a></li>
+                    <li><a href="portfolioHayden.html">Team</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="portfolioHayden.html">Hayden</a></li>
+                            <li><a href="portfolioSolange.html">Solange</a></li>
+                            <li><a href="portfolioOscar.html">Oscar</a></li>
+                        </ul>
+				    </li>
+			</nav>
+		</div>
+		
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
+            <h1>&nbsp; My PortFolio</h1>
+
+            <section id="slideshow" class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="Images/solange's portolio_pic/Produit1.jpg" style="width: 50%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="Images/solange's portolio_pic/produit2.jpg" style="width: 50%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="Images/solange's portolio_pic/produit3.jpg" style="width: 50%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="Images/solange's portolio_pic/produit4.jpg" style="width: 50%;">
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="Images/solange's portolio_pic/produit5.jpg" style="width: 50%;">
+                </div>
+
+            </section>
+
+            <div style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+
+            </div>
+        
+        </main>
+		
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>&copy; Copyright 2021. All Right Reserved.</p>
+            <p><a href="mailto:forwardtechnoshop@mail.net">forwardtechnoshop@mail.net</a></p>
+		<p>Designed by: Solange Adidi</p>
+            <img src="Images/twitter.png" width="20" height="20">
+		<img src="Images/facebook.webp" width="25" height="25">
+        </footer>
+   
+    </div>
+
+    <script src="Script/script.js"></script>
+
+</body>
+</html>
